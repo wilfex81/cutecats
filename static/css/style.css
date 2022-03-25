@@ -1,0 +1,73 @@
+.container1{
+    background-color: #1F2937;
+}
+.container1 img{
+  height: 10%;
+  width: 10%;
+}
+/*start here
+*Work on the navbar
+* next work on classes
+* next work on paragraph, basically container1
+ */
+.navbar{
+  float: left;
+  text-decoration-color: #E5E7EB;
+  text-size-adjust: 18px;
+  justify-content: space-around;
+}
+.navbar ul, li, a{
+  list-style: none;
+  display: flex;
+  row-gap: 10px;
+}
+
+.major_image img{
+  height: 150%;
+  width: 140%;
+  flex-wrap: wrap;
+}
+div {
+    padding: 30px;
+    text-align: center;
+    /*margin-bottom: 10px;*/
+    color: #EEEEEE;
+  }
+  
+  .introduction{
+    background-color: #548CA8;
+  }
+  
+  #main-content {
+    background-color: #E5E7EB;
+  }
+
+  
+  .contact-us {
+    background-color: #334257;
+  }
+  .contact-us button{
+    float: right;
+    justify-content: space-between;
+  }
+  .image img{
+    float: right;
+  }
+  #rcorners1 {
+    border-radius: 15px;
+    padding: 20px; 
+    width: 300px;
+    height: 200px;  
+  }
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+}
+
+@media (min-width: 992px){
+  .navbar li {
+      margin-left : 1em;
+      margin-right : 1em;
+  }
+}
