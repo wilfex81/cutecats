@@ -13,12 +13,16 @@
 </head>
 <body>
   <div class="container1" id="container1_id">
-    <ul class="navbar">
-      <img src="static/images/cat6.jpg" alt="" srcset="">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <nav class="bx navbar">
+      <div class="header-logo">
+        <img src="static/images/cat6.jpg" alt="" srcset="">
+      </div>
+      <div class="header-link">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>                    
+      </div>
+  </nav>
     <div class="container px-4">
       <div class="row gx-5">
         <div class="col">
@@ -42,18 +46,30 @@
     </div>
   </div>
   </div>
-
-  <div class="introduction">
+  <div class="bx content">
     <h2>Cute images</h2>
-    <img id="rcorners1" src="static/images/cat1.jpg" alt="image1">
-    <img id="rcorners1" src="static/images/cat2.jpg" alt="image2">
-    <img id="rcorners1" src="static/images/cat3.jpg" alt="image3">
-    <img id="rcorners1" src="static/images/cat4.jpg" alt="image4">
-  </div>
+    <div class="content-info">
+        <div>
+          <img  src="static/images/cat1.jpg" >   
+        </div>
+        <div>
+          <img  src="static/images/cat2.jpg">      
+        </div>
+        <div>
+          <img  src="static/images/cat3.jpg" >
+        </div>
+        <div>
+          <img  src="static/images/cat4.jpg">
+        </div>
+    </div>
+</div>
 
   <div id="main-content">
     <div class="w3-panel w3-leftbar w3-sand w3-xxlarge w3-serif">
       <p class="quote"><i>"Make it as simple as possible, but not simpler."</i></p>
+      <b>
+        -- Anonymous Cute Cats
+    </b>
     </div>
   </div>
   <div class="contact-us">
@@ -65,10 +81,9 @@
       </div>
     </div>
   </div>
-
-  <footer>
-    <p class="p-footer">© 2022 cutecats.com</p>
-  </footer>
+  <div class="bx footer">
+    <p>Copyright © Cute Cats 2022</p>
+</div>
 </body>
 
 </html>

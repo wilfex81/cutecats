@@ -1,6 +1,7 @@
 body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: medium;
+  text-align: center;
 }
 .container1{
     background-color: #1F2937;
@@ -8,20 +9,33 @@ body{
 .container1 img{
   width: 5%;
 }
-.navbar{
-  float: right;
-  text-decoration-color: #E5E7EB;
-  text-size-adjust: 18px;
-  justify-content: space-between;
-}
-.navbar ul, li, a{
-  list-style: none;
+.navbar {
   display: flex;
-  row-gap: 1px;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  padding: 20px 0px 20px 100px;
+  align-items: center;
 }
-.navbar div{
-  font: 1em sans-serif;
+
+.header-logo img {
+  width: 84px;
+  margin-right: auto;
 }
+
+.header-link {
+  display: flex;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px;  
+}
+
+.header-link a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Roboto', arial;
+}
+
 .col h1, p{
   text-align: justify;
 }
@@ -35,11 +49,28 @@ div {
     color: #EEEEEE;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-  }
-  .introduction{
-    background-color: #548CA8;
-  }
+}
+.content {
+  align-items: center;
+  background-color: #548CA8;
+}
+
+.content-info {
+  display: flex;
+  /* border: 1px solid gold; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-info img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+}
+
   #main-content {
     background-color: #E5E7EB;
   }
@@ -55,12 +86,6 @@ div {
   .image img{
     float: right;
   }
-  #rcorners1 {
-    border-radius: 15px;
-    padding: 20px; 
-    width: 300px;
-    height: 200px;  
-  }
   .quote{
     text-align: center;
   }
@@ -71,11 +96,13 @@ div {
   #button1{
     float: left;
   }
-footer{
+  .footer {
     background-color: #1F2937;
-    color: #EEEEEE;
+    
+    color: #fff;
+    font-family: 'Roboto', arial;
 }
-.p-footer{
+.footer p{
   text-align: center;
 }
 
